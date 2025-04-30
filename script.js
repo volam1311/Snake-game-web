@@ -6,9 +6,7 @@ const gridSize = 10;
 const canvasWidth = canvas.width;
 const canvasHeight = canvas.height;
 
-// Difficulty (lower interval = faster game)
-// Python difficulty 25 corresponds roughly to 1000/25 = 40ms interval, let's use 100ms for a start, closer to easy/medium
-let gameSpeed = 100; // milliseconds
+let gameSpeed = 100;
 
 let snake = [
     { x: 100, y: 50 },
