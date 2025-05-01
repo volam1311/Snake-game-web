@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #002b4f;
+    padding: 0;
+    margin: 0;
+}
+
+.logo h1 {
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+}
