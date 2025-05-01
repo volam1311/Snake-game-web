@@ -26,3 +26,25 @@ body {
     margin: 0;
     padding: 0;
 }
+nav 
+{
+	background-color: #035efc;
+	padding: 0;
+	overflow:hidden;
+    width:100%;
+    align-items: center;
+    text-align: center;
+}
+nav a {
+		color:white;
+		text-align:center;
+		padding:14px 20px;
+		display:block;
+		float:left;
+        align-items: center;
+	}
+nav a:hover 
+{
+	background-color:white;
+	color: black;
+}
