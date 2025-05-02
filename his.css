@@ -55,3 +55,6 @@ nav a:hover
     font-family:Verdana;
     width: 70%;
 }
+.content section{
+    margin: 40px;
+}
